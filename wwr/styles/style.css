@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;400&family=Roboto:wght@300&display=swap');
+
+
 #content{
     max-width: 1600px;
     Margin: 0 auto
@@ -7,10 +10,19 @@
     width: 80px;
 }
 
+.home-title {
+    font-family: 'Oswald', sans-serif, serif;
+    font-size: 2em;
+    color: #000000;
+    margin-top: 10px;
+
+}
+
 nav a{
     text-align: center;
     color: #ffffff;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -22,6 +34,10 @@ nav a{
 
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .button-box{
     text-align: center
 }
@@ -29,16 +45,28 @@ nav a{
 main section{
     text-align: center
 }
+
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
+    background-color: #DA792A;
 }
 
 body {
-    background-color: #ffffff; 
+    font-family: 'Roboto', sans-serif, monospace;
+    background-color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
+    font-family: 'Oswald', sans-serif, serif;
     background-color: #0788c2
 }
+
 
 nav a:hover {
     background-color: #DA792A;
@@ -46,9 +74,13 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #0788c2;
+    color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
@@ -57,18 +89,24 @@ nav a:hover {
     color: #ffffff;
 }
 
-#background{
-    background-color: #DA792A;
+.msg {
+    font-family: 'Oswald', sans-serif, serif;
+    background-color: #ffffff;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.msg {
-    background-color: #ffffff;
-    color: #000000;
+.msg p {
+    font-family: 'Roboto', sans-serif, monospace;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #0788c2;
-    color: #ffffff
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -89,12 +127,13 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-.home-title {
-    color: #000000
+footer .social img  {
+    padding-top: 15px;  
 }
 
-h2 {
-    color: #396E94
+h2{
+    color: #396E94;
+    margin: 0;
 }
 
 h4 {
@@ -103,4 +142,15 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
+.rivers-card, .camping-card, .rapids-card  {
+    margin: 200px 0;
+
+}
+
+.card-img {
+    border: 10px solid #DA792A;
+}
+
