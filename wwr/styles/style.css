@@ -271,7 +271,7 @@ h4 {
     font-family: 'Oswald', sans-serif, serif;
     font-size: 5em;
     color: #ffffff;
-    text-shadow: 0.1em 0.1em #333
+    text-shadow: 0.1em 0.01em #333
 }
 
 .post-img:hover {
@@ -334,6 +334,25 @@ h4 {
 .post-1, .post-2, .post-3, .post-4, .post-5, .post-6  {
     margin: 50px auto;
     width: 90%;
+}
+
+.post-title {
+    color: #000000
+}
+
+.read-more {
+    background-color: #DA792A;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 20px; 
+}
+
+.read-more:hover {
+    background-color: #0788c2;
+    color: #ffffff;
 }
 
 /*================*/
