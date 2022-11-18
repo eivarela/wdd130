@@ -250,7 +250,6 @@ h4 {
 #banner {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* margin-top: -100px;  */
 }
 
 #blog-img {
@@ -275,6 +274,9 @@ h4 {
     text-shadow: 0.1em 0.1em #333
 }
 
+.post-img:hover {
+    transform: scale(1.1);
+}
 
 .blog-grid{
     display: grid;
